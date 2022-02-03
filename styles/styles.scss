@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap');
+
+$font-family: 'Exo 2';
+$blue-color: #0e70b7;
+$gray-color: #E9ECEF;
+div.main-container{
+  font-family: $font-family, sans-serif !important;
+}
+
+.standard-blue-btn:hover {
+  background-color: $gray-color;
+  color: $blue-color;
+}
+
+.standard-blue-btn {
+  background-color: $blue-color;
+  color: white;
+}
